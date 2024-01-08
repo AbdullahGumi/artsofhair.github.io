@@ -9,17 +9,10 @@ import TeamSection from './components/TeamSection';
 
 import './App.css';
 import Footer from './components/Footer';
+import PartnersSection from './components/PartnersSection';
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route
-    //       path="/"
-    //       element={}
-    //     />
-    //   </Routes>
-    // </BrowserRouter>
     <>
       <div className="container mx-auto px-4 py-12">
         <Fade>
@@ -34,6 +27,9 @@ function App() {
         </Element>
         <Element name="team" className="element">
           <TeamSection />
+        </Element>
+        <Element name="partners" className="element">
+          <PartnersSection />
         </Element>
       </div>
       <Element name="kontakt" className="element">

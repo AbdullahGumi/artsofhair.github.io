@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6">
+    <nav className="flex items-center justify-between flex-wrap sm:px-6 sm:py-0 px-6 py-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <img src={Logo} className="max-w-[100px] sm:max-w-[150px]" alt="Logo" />
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         className={`${
           isOpen ? 'flex' : 'hidden'
         } w-full flex justify-center flex-grow sm:items-center sm:flex sm:w-auto`}>
-        <ul className="text-sm sm:flex-grow sm:flex sm:justify-end text-center gap-x-8">
+        <ul className="text-sm sm:flex-grow sm:flex sm:justify-end text-center gap-x-4">
           <NavItem onClick={() => setIsOpen(false)} to="salon" text="Salon" />
           <NavItem
             onClick={() => setIsOpen(false)}
@@ -39,6 +39,11 @@ const Navbar = () => {
             text="Services"
           />
           <NavItem onClick={() => setIsOpen(false)} to="team" text="Team" />
+          <NavItem
+            onClick={() => setIsOpen(false)}
+            to="partners"
+            text="Partners"
+          />
           <NavItem
             onClick={() => setIsOpen(false)}
             to="kontakt"
