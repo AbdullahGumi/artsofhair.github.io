@@ -10,28 +10,28 @@ const categories = [
         services: [
           {
             service: 'Gloss',
-            price: '€35',
+            price: 'ab 35€',
           },
           {
             service: 'Ansatz Coloration',
-            price: '€49',
+            price: 'ab 49€',
           },
           {
             service: 'Strähnen Oberkopf',
-            price: '€55',
+            price: 'ab 55€',
           },
           {
             service: 'Strähnen ganzer Kopf',
-            price: '€75',
+            price: 'ab 75€',
           },
 
           {
             service: 'Balayage ohne Ansatzfarbe ',
-            price: '€190',
+            price: 'ab 190€',
           },
           {
             service: 'Balayage mit Ansatzfarbe ',
-            price: '€220',
+            price: 'ab 220€',
           },
         ],
       },
@@ -45,24 +45,24 @@ const categories = [
         services: [
           {
             service: 'Dame Kurz',
-            price: '€45',
+            price: 'ab 45€',
           },
           {
             service: 'Dame Mittel',
-            price: '€55',
+            price: 'ab 55€',
           },
           {
             service: 'Dame Lang',
-            price: '€65',
+            price: 'ab 65€',
           },
           {
             service: 'Cut&Go',
-            price: '€37',
+            price: 'ab 37€',
           },
 
           {
             service: 'Waschen, Legen, föhnen ',
-            price: '€35',
+            price: 'ab 35€',
           },
         ],
       },
@@ -71,11 +71,11 @@ const categories = [
         services: [
           {
             service: 'Conditioner',
-            price: '€9',
+            price: 'ab 9€',
           },
           {
             service: 'Intensive Haarkur',
-            price: '€16',
+            price: 'ab 16€',
           },
         ],
       },
@@ -84,7 +84,7 @@ const categories = [
         services: [
           {
             service: 'Haaraufbau Treatment',
-            price: '€40',
+            price: 'ab 40€',
           },
         ],
       },
@@ -98,11 +98,11 @@ const categories = [
         services: [
           {
             service: 'Schnitt',
-            price: '€30',
+            price: 'ab 30€',
           },
           {
             service: 'Farbe',
-            price: '€38',
+            price: 'ab 38€',
           },
         ],
       },
@@ -116,11 +116,11 @@ const categories = [
         services: [
           {
             service: 'Schneiden bis 10J.',
-            price: '€16',
+            price: '16€',
           },
           {
             service: 'Schneiden ab 10J.',
-            price: '€25',
+            price: 'ab 25€',
           },
         ],
       },
@@ -134,11 +134,19 @@ const categories = [
         services: [
           {
             service: 'Mittellange Haare',
-            price: '€70',
+            price: 'ab 70€',
           },
           {
             service: 'Lange Haare',
-            price: '€110',
+            price: 'ab 110€',
+          },
+          {
+            service: 'Tages make up',
+            price: 'ab 45€',
+          },
+          {
+            service: 'Abend make up',
+            price: 'ab 65€',
           },
         ],
       },
@@ -152,15 +160,15 @@ const categories = [
         services: [
           {
             service: 'Augenbrauen zupfen',
-            price: '€9',
+            price: 'ab 9€',
           },
           {
             service: 'Augenbrauen färben',
-            price: '€11',
+            price: 'ab 11€',
           },
           {
             service: 'Wimpern färben',
-            price: '€15',
+            price: 'ab 15€',
           },
         ],
       },
