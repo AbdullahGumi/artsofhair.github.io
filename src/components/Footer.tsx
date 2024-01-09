@@ -9,7 +9,7 @@ const Footer = () => {
     );
   };
   return (
-    <footer className="bg-[#DBB06F]">
+    <footer className="bg-[#DCBFA6]">
       <div className="container mx-auto  flex items-center sm:items-start justify-between flex-col gap-y-4 sm:gap-y-0 sm:flex-row p-12 sm:p-24">
         <img src={Logo} className="max-w-[100px] sm:max-w-[150px] invert" />
 
@@ -30,7 +30,7 @@ const Footer = () => {
             Auf der Karte ansehen
           </span>
           <a href="tel:+49023012185">
-            <button className="bg-white text-[#DBB06F] hover:opacity-[90%] p-3 rounded">
+            <button className="bg-white text-[#DCBFA6] hover:opacity-[90%] p-3 rounded">
               JETZT ANRUFEN
             </button>
           </a>

@@ -5,7 +5,7 @@ const PartnersSection = () => {
     <div className="flex flex-col items-center my-24">
       <Fade>
         <h1
-          className="text-[75px] md:text-[80px] lg:text-[120px] text-[#DBB06F]"
+          className="text-[75px] md:text-[80px] lg:text-[120px] text-[#DCBFA6]"
           style={{fontFamily: 'Damion'}}>
           Partners
         </h1>

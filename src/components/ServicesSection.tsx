@@ -172,7 +172,7 @@ const ServicesSection = () => {
   return (
     <div className="flex flex-col items-center mt-10 relative">
       <h1
-        className="text-[75px] md:text-[80px] lg:text-[120px] text-[#DBB06F]"
+        className="text-[75px] md:text-[80px] lg:text-[120px] text-[#DCBFA6]"
         style={{fontFamily: 'Damion'}}>
         Our Services
       </h1>
